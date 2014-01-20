@@ -13,4 +13,4 @@ function add_slug_body_class($classes) {
     return $classes;
 }
 
-if($general_prefs->add_slug_body_class) add_filter('body_class', 'add_slug_body_class');
+if($general_prefs['add_slug_body_class']) add_filter('body_class', 'add_slug_body_class');
